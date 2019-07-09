@@ -41,7 +41,7 @@ The following functions can be used in any Sketch that includes the SmallMimic l
         Same as above, but do it over time (MS).
         
     void mouseClick(MouseButton);
-        Send a mouse click (LEFT, RIGHT, MIDDLE).
+        Send a mouse click ([LEFT/RIGHT/MIDDLE]).
         
     void mouseDown(MouseButton);
         Send a mouse press with no release (ie. hold for dragging)
