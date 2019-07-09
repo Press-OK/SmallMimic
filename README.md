@@ -17,7 +17,7 @@ The following functions can be used in any Sketch that includes the SmallMimic l
         Send a string of keys for the listener to press one at a time.
         
     void sendKeys(char*, short);
-        Same as above, but with a specified delay (MS).
+        Same as above, but with a specified delay (MS) between keys.
         
     void keyDown(char*);
         Send a single key press with no release.
