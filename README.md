@@ -68,5 +68,5 @@ For the string syntax that is used for the key-sending functions, it mostly foll
         Work-around: None. This is an issue with the way Windows enumerates USB ports. The listener has to be restarted if the device is disconnected.
 
 # License Information
-This project uses the SWT library included with Eclipse IDE, as well as the RXTX library from GitHub, and their respective licenses are included.
+This project uses the SWT library included with Eclipse IDE, as well as the RXTX library from GitHub here https://github.com/rxtx/rxtx, and their respective licenses are included.
 This project uses the same license, I guess. Or let's just say, a good one. Whichever the best one is. That one.
