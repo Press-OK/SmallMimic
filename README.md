@@ -49,7 +49,7 @@ The following functions can be used in any Sketch that includes the SmallMimic l
     void mouseUp(MouseButton);
         Send a mouse release action.
 
-For the string syntax that is used for the key-sending functions, it mostly follow the syntax used by AutoHotKey which can be found here: https://www.autohotkey.com/docs/commands/Send.htm
+For the string syntax that is used for the key-sending functions, it mostly follows the syntax used by AutoHotKey which can be found here: https://www.autohotkey.com/docs/commands/Send.htm
 
 # License Information
 This project uses the SWT library included with Eclipse IDE, as well as the RXTX library from GitHub, and their respective licenses are included.
