@@ -53,19 +53,19 @@ For the string syntax that is used for the key-sending functions, it mostly foll
 
 # Known Issues
 - Mouse sensitivity bug with Java's Robot class causes Windows sensitivity to occasionally be reset to it's default
-https://bugs.openjdk.java.net/browse/JDK-8041463
-    Work-around: Use time delays on mouse movement
+        https://bugs.openjdk.java.net/browse/JDK-8041463
+        Work-around: Use time delays on mouse movement
 
 - Modifier keys are sometimes released by Java's Robot class
-https://bugs.openjdk.java.net/browse/JDK-4908075
-    Work-around: They work fine when NumLock is off. Send {numlock} to turn numlock off, then keyDown() the modifier, turn numlock back on after releasing the key
+        https://bugs.openjdk.java.net/browse/JDK-4908075
+        Work-around: They work fine when NumLock is off. Send {numlock} to turn numlock off, then keyDown() the modifier, turn numlock back on after releasing the key
 
 - keyDown() does not emulate normal key-holding behavior, ie. normal windows repeating functionality when holding a key
-    Work-around: None. Some flaw in Java's Robot class (I chose a great path to take for this, huh)
+        Work-around: None. Some flaw in Java's Robot class (I chose a great path to take for this, huh)
 
 - Reconnecting is impossible without restarting the listener
-https://marc.info/?l=rxtx&m=125310032820956&w=2
-    Work-around: None. This is an issue with the way Windows enumerates USB ports. The listener has to be restarted if the device is disconnected.
+        https://marc.info/?l=rxtx&m=125310032820956&w=2
+        Work-around: None. This is an issue with the way Windows enumerates USB ports. The listener has to be restarted if the device is disconnected.
 
 # License Information
 This project uses the SWT library included with Eclipse IDE, as well as the RXTX library from GitHub, and their respective licenses are included.
