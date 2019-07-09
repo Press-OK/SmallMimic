@@ -1,7 +1,9 @@
 # SmallMimic
-A Java application/uC Library for emulating keyboard+mouse control in Windows based on serial messages received from a connected microcontroller
+A Java application/uC Library for emulating keyboard+mouse control in Windows based on serial messages received from a connected microcontroller.
 
 This requires the Java listener to be running on the host. It contains a minimal UI for the initial setup and for some convenience functions.
+
+TLDR: It is similar to using a microcontroller as a HID mouse/keyboard, but without having to wire the device & flash firmware to get windows to recognize it as the device it is emulating. Communicates over raw serial with user-selected baud rate and COM port.
 
 
 
